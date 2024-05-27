@@ -8,3 +8,8 @@ Options:
  -v  = verbose
  -t  = print table
 ```
+
+The Bellaso Cipher encoding creates an encoded file which exhibits a nonsensical character distribution.  Code breaking cannot be achieved by analyzing the character distribution of the encoded file.  See BellasoCipher.png.
+
+Longer, more complex keywords result in stronger encryption.
+
