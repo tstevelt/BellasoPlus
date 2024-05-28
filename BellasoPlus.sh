@@ -21,11 +21,11 @@ Process ()
 	BASENAME=$1
 	KEYWORD=$2
 
-	BellasoPlus -e $KEYWORD $BASENAME.txt $BASENAME.encode 
+	BellasoPlus -e $KEYWORD $BASENAME.txt $BASENAME.encrypt 
 
-	BellasoPlus -d $KEYWORD $BASENAME.encode $BASENAME.decode
+	BellasoPlus -d $KEYWORD $BASENAME.encrypt $BASENAME.decrypt
 
-	for i in $BASENAME.txt $BASENAME.encode $BASENAME.decode
+	for i in $BASENAME.txt $BASENAME.encrypt $BASENAME.decrypt
 	do
 		echo "==== $i ===="
 		cat $i

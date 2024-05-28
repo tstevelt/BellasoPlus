@@ -9,9 +9,9 @@ Options:
  -t  = print table
 ```
 
-The Bellaso Cipher encoding creates an encoded file which exhibits a nonsensical character distribution.  Code breaking cannot be achieved by analyzing the character distribution of the encoded file.  See BellasoCipher.png.
+The Bellaso Cipher creates an encrypted file which exhibits a nonsensical character distribution.  Code breaking cannot be achieved by analyzing the character distribution of the encrypted file.  See BellasoCipher.png.
 
 Longer, more complex keywords result in stronger encryption.
 
-Here is a <a href='http://bellaso.silverhammersoftware.com/'>Bellaso Website</a> where you can encode, email and decode messages.  
+Here is a <a href='http://bellaso.silverhammersoftware.com/'>Bellaso Website</a> where you can encrypt, email and decrypt messages.  
 
