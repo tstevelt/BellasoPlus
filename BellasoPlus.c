@@ -201,7 +201,7 @@ int main (int argc, char *argv[] )
 {
 	int		keywordlen, keywordndx;
 	FILE	*ifp, *ofp;
-	char	xbuffer[1024];
+	char	xbuffer[10240];
 	int		lineno;
 	RECORD	RowKey, *RowPtr;
 	char	*ColPtr;
